@@ -156,9 +156,37 @@ b {
     background: #F8F8F8;
 }
 
-.item-image:hover {
-    display: block;
-    opacity: 50%;
+.item-image {
+    position: relative;
+}
+
+.hover-element {
+    position: absolute;
+    visibility: hidden;
+    top: 45%;
+    left:30%;
+    background: rgba(58, 56, 56, 0.86);
+}
+
+.hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+    border: 1px solid #FFFFFF;
+    padding: 11px 16px 8px 13px;
+}
+
+.item-image:hover .hover-element {
+    visibility: visible;
+    background: rgba(58, 56, 56, 0.86);
+}
+
+.hover-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
 }
 
 .product-description {
