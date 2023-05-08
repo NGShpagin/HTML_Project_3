@@ -45,7 +45,42 @@ header {
 .logo:hover path {
     fill: #F16D7F;
     transition-duration: 0.4s;
+}
 
+.btn {
+    width: 50px;
+}
+
+.dropdown-menu {
+    padding-left: 32px;
+    padding-bottom: 32px;
+    width: 232px;
+}
+
+.menu-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.category {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 20px;
+}
+
+.category a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-left: 22px;
 }
 
 .top {
@@ -581,7 +616,7 @@ b {
     }
 
     .promotion {
-        width: 341px;
+        width: 320px;
     }
 
     .promotion-h1 {
@@ -598,11 +633,11 @@ b {
     }
 
     .promotion-input {
-        min-width: 245px;
+        min-width: 210px;
     }
 
     .promotion-button {
-        min-width: 95px;
+        min-width: 80px;
     }
 
     .copyright {
