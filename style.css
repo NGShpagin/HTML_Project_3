@@ -375,6 +375,13 @@ b {
     margin-bottom: 0;
 }
 
+.item-price {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #EF5B70;
+}
+
 .quantity {
     display: flex;
     flex-direction: row;
