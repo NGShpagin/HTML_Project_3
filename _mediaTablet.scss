@@ -1,4 +1,4 @@
-@media (min-width: 736px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .center {
     padding-left: calc(50% - $widthTable / 2);
     padding-right: calc(50% - $widthTable / 2);
@@ -82,16 +82,20 @@
     padding-top: 59px;
   }
 
+  .cart-container {
+    margin-bottom: 64px;
+  }
+
+  .cart-box {
+    margin-bottom: 62px;
+  }
+
   .cart-item {
     width: 734px;
 
     &__description {
       width: 734px;
     }
-  }
-
-  .cart-container {
-    margin-bottom: 64px;
   }
 
   .cart-buttons {

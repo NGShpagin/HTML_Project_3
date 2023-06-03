@@ -19,13 +19,16 @@
             <a href="index.html">
                 <img src="img/top-logo-1.svg" alt="logo-1">
             </a>
-            <a href="#">
-                <svg class="logo" width="27" height="28" viewBox="0 0 27 28" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19.0589 17.6249C20.6705 15.8648 21.6275 13.6038 21.769 11.2215C21.9106 8.8392 21.2281 6.48075 19.8362 4.5422C18.4443 2.60365 16.4278 1.20306 14.1252 0.575643C11.8227 -0.0517774 9.37437 0.132183 7.19143 1.09663C5.0085 2.06108 3.22389 3.74727 2.1373 5.87205C1.05071 7.99682 0.728322 10.4308 1.22426 12.7652C1.72021 15.0996 3.00428 17.1922 4.86085 18.6917C6.71741 20.1912 9.0334 21.0063 11.4199 20.9999C13.6723 21.003 15.8638 20.269 17.6599 18.9099L25.4079 26.7169C25.4934 26.806 25.5958 26.8771 25.7091 26.926C25.8225 26.975 25.9444 27.0008 26.0679 27.0019C26.1916 27.0023 26.314 26.9772 26.4276 26.9282C26.5411 26.8792 26.6434 26.8072 26.7279 26.7169C26.9018 26.536 26.999 26.2949 26.999 26.0439C26.999 25.793 26.9018 25.5518 26.7279 25.3709L19.0589 17.6249ZM2.88589 10.4999C2.89873 8.81465 3.41021 7.17089 4.35586 5.77587C5.30151 4.38086 6.63899 3.29703 8.1997 2.66102C9.76042 2.02501 11.4745 1.86529 13.1258 2.202C14.7772 2.53871 16.2919 3.35678 17.479 4.55307C18.6661 5.74935 19.4725 7.27031 19.7965 8.92421C20.1204 10.5781 19.9475 12.2909 19.2995 13.8467C18.6515 15.4024 17.5574 16.7315 16.1551 17.6664C14.7529 18.6013 13.1052 19.1001 11.4199 19.0999C9.14843 19.0891 6.97409 18.1774 5.3741 16.5651C3.77412 14.9527 2.87924 12.7714 2.88589 10.4999Z"
-                          fill="#E8E8E8"/>
-                </svg>
-            </a>
+            <div id="search-b" class="search-box">
+                <span class="search-box__icon">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.0589 17.6249C20.6705 15.8648 21.6275 13.6038 21.769 11.2215C21.9106 8.8392 21.2281 6.48075 19.8362 4.5422C18.4443 2.60365 16.4278 1.20306 14.1252 0.575643C11.8227 -0.0517774 9.37437 0.132183 7.19143 1.09663C5.0085 2.06108 3.22389 3.74727 2.1373 5.87205C1.05071 7.99682 0.728322 10.4308 1.22426 12.7652C1.72021 15.0996 3.00428 17.1922 4.86085 18.6917C6.71741 20.1912 9.0334 21.0063 11.4199 20.9999C13.6723 21.003 15.8638 20.269 17.6599 18.9099L25.4079 26.7169C25.4934 26.806 25.5958 26.8771 25.7091 26.926C25.8225 26.975 25.9444 27.0008 26.0679 27.0019C26.1916 27.0023 26.314 26.9772 26.4276 26.9282C26.5411 26.8792 26.6434 26.8072 26.7279 26.7169C26.9018 26.536 26.999 26.2949 26.999 26.0439C26.999 25.793 26.9018 25.5518 26.7279 25.3709L19.0589 17.6249ZM2.88589 10.4999C2.89873 8.81465 3.41021 7.17089 4.35586 5.77587C5.30151 4.38086 6.63899 3.29703 8.1997 2.66102C9.76042 2.02501 11.4745 1.86529 13.1258 2.202C14.7772 2.53871 16.2919 3.35678 17.479 4.55307C18.6661 5.74935 19.4725 7.27031 19.7965 8.92421C20.1204 10.5781 19.9475 12.2909 19.2995 13.8467C18.6515 15.4024 17.5574 16.7315 16.1551 17.6664C14.7529 18.6013 13.1052 19.1001 11.4199 19.0999C9.14843 19.0891 6.97409 18.1774 5.3741 16.5651C3.77412 14.9527 2.87924 12.7714 2.88589 10.4999Z"
+                              fill="#E8E8E8"/></svg>
+                </span>
+                <input class="search-box__input" id="search" name="search" value="" type="search"
+                       placeholder="Search...">
+            </div>
         </nav>
         <nav class="header__right">
             <div class="burger-menu-icon">
@@ -96,14 +99,13 @@
     <section class="top-head center">
         <h2 class="top-head__heading">NEW ARRIVALS</h2>
         <nav class="breadcrumbs">
-            <a href="#" class="breadcrumbs__link">HOME</a>
+            <a href="index.html" class="breadcrumbs__link">HOME</a>
             <a href="#" class="breadcrumbs__link">MEN</a>
             <a href="#" class="breadcrumbs__link breadcrumbs__link-site">NEW ARRIVALS</a>
         </nav>
     </section>
 
     <section class="products center">
-
         <div class="filter-sort">
             <details class="filter">
                 <summary class="filter__summary">
@@ -115,7 +117,6 @@
                     <svg class="filter__icon" width="38" height="25" viewBox="0 0 38 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.08333 25H10.4167C11.5625 25 12.5 24.0625 12.5 22.9167C12.5 21.7708 11.5625 20.8333 10.4167 20.8333H2.08333C0.9375 20.8333 0 21.7708 0 22.9167C0 24.0625 0.9375 25 2.08333 25ZM0 2.08333C0 3.22917 0.9375 4.16667 2.08333 4.16667H35.4167C36.5625 4.16667 37.5 3.22917 37.5 2.08333C37.5 0.9375 36.5625 0 35.4167 0H2.08333C0.9375 0 0 0.9375 0 2.08333ZM2.08333 14.5833H22.9167C24.0625 14.5833 25 13.6458 25 12.5C25 11.3542 24.0625 10.4167 22.9167 10.4167H2.08333C0.9375 10.4167 0 11.3542 0 12.5C0 13.6458 0.9375 14.5833 2.08333 14.5833Z" fill="black"/>
                     </svg>
-
                 </summary>
                 <div class="filter__content">
                     <details class="filter__item">
@@ -193,12 +194,11 @@
                 </details>
             </div>
         </div>
-
         <div class="products-box">
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-1.svg" alt="product-1">
-                    <div class="hover-content">
+                    <div class="hover-content" onclick="location.href='cart.html'">
                         <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M21.8765 22.2662C21.9215 22.2549 21.9428 22.2339 21.9605 22.2129C21.9683 22.2037 21.9761 22.1946 21.9839 22.1855C22.0204 22.1438 22.0237 22.0553 22.0229 22.0105C22.0097 21.9044 21.9189 21.8315 21.8417 21.8315C21.838 21.8315 21.8341 21.8317 21.8317 21.8318C21.7536 21.8372 21.6658 21.9409 21.6724 22.0625C21.6818 22.1793 21.7679 22.2662 21.8397 22.2662H21.8765ZM8.22003 22.2599C8.31921 22.2599 8.39984 22.1655 8.39984 22.0496C8.39984 21.9341 8.31921 21.8401 8.22003 21.8401C8.12091 21.8401 8.04022 21.9341 8.04022 22.0496C8.04022 22.1655 8.12091 22.2599 8.22003 22.2599ZM21.9999 24.2662C21.9522 24.2662 21.8883 24.2662 21.8397 24.2662C20.7021 24.2662 19.7571 23.3545 19.677 22.198C19.5969 20.9929 20.4942 19.9183 21.6957 19.8364C21.7446 19.8331 21.7933 19.8315 21.8417 19.8315C22.9804 19.8315 23.9418 20.7324 24.0195 21.8884C24.051 22.4915 23.8746 23.0612 23.4903 23.5012C23.106 23.9575 22.5768 24.2177 21.9999 24.2662ZM8.22003 24.2599C7.01581 24.2599 6.04022 23.2709 6.04022 22.0496C6.04022 20.8291 7.01581 19.8401 8.22003 19.8401C9.42419 19.8401 10.3998 20.8291 10.3998 22.0496C10.3998 23.2709 9.42419 24.2599 8.22003 24.2599ZM21.1989 17.3938H9.13354C8.70062 17.3938 8.31635 17.1005 8.2038 16.6775L4.27802 2.24768H1.52222C0.993896 2.24768 0.561035 1.80859 0.561035 1.27039C0.561035 0.733032 0.993896 0.292969 1.52222 0.292969H4.99982C5.43182 0.292969 5.8161 0.586304 5.92859 1.01025L9.85443 15.4391H20.5581L24.1149 7.13379H12.2583C11.7291 7.13379 11.2962 6.69373 11.2962 6.15649C11.2962 5.61914 11.7291 5.17908 12.2583 5.17908H25.5891C25.9095 5.17908 26.2146 5.34192 26.3901 5.61914C26.5665 5.89539 26.5989 6.23743 26.4702 6.547L22.08 16.807C21.9198 17.1653 21.5832 17.3938 21.1989 17.3938Z"
                                   fill="white"/>
@@ -213,7 +213,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-2.svg" alt="product-2">
                     <div class="hover-content">
@@ -231,7 +231,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-3.svg" alt="product-3">
                     <div class="hover-content">
@@ -249,7 +249,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-4.svg" alt="product-4">
                     <div class="hover-content">
@@ -267,7 +267,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-5.svg" alt="product-5">
                     <div class="hover-content">
@@ -285,7 +285,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-6.svg" alt="product-6">
                     <div class="hover-content">
@@ -303,7 +303,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-7.svg" alt="product-7">
                     <div class="hover-content">
@@ -321,7 +321,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product" href="#">
+            <a class="product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-8.svg" alt="product-8">
                     <div class="hover-content">
@@ -339,7 +339,7 @@
                     <p class="product__price">$52.00</p>
                 </div>
             </a>
-            <a class="product last-product" href="#">
+            <a class="product last-product" href="product.html">
                 <div class="product__image">
                     <img src="img/product-9.svg" alt="product-9">
                     <div class="hover-content">
@@ -358,7 +358,6 @@
                 </div>
             </a>
         </div>
-
     </section>
 
     <section class="features center">

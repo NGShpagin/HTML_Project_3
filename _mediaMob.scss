@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 766px) {
   .center {
     padding-left: calc(50% - $widthMob / 2);
     padding-right: calc(50% - $widthMob / 2);
@@ -10,6 +10,19 @@
 
   .header__right {
     margin-right: 8px;
+  }
+
+  .search-box {
+    input {
+      &#search:focus, &#search:active {
+        width: 75%;
+      }
+    }
+
+    &:hover input {
+      width: 75%;
+    }
+
   }
 
   .logo-4 {
@@ -108,6 +121,7 @@
 
   .product-photo {
     height: auto;
+
     &__image {
       max-width: 374px;
       padding-top: 85px;
@@ -118,6 +132,7 @@
   .product-info {
     margin-top: 0;
     border-bottom: 1px solid #EAEAEA;
+
     &__box {
       padding: 64px 25px;
       border: none;
@@ -177,8 +192,13 @@
     flex-direction: column;
   }
 
+  .cart-container {
+    margin-bottom: 48px;
+  }
+
   .cart-box {
     gap: 32px;
+    margin-bottom: 30px;
   }
 
   .cart-item {
