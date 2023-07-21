@@ -241,16 +241,16 @@ img {
 .breadcrumbs__link:hover {
   color: #F16D7F;
 }
-.breadcrumbs__link-site {
+.breadcrumbs__link:not(:last-child)::after {
+  content: "/";
+  margin-left: 5px;
+}
+.breadcrumbs__link:last-child {
   font-weight: 700;
   color: #F16D7F;
 }
-.breadcrumbs__link-site:hover {
+.breadcrumbs__link:last-child:hover {
   cursor: not-allowed;
-}
-.breadcrumbs__link:not(:last-child):after {
-  content: "/";
-  margin-left: 5px;
 }
 
 .catalog {
@@ -719,17 +719,13 @@ img {
 
 .pagination {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pagination__box {
-  display: flex;
   flex-direction: row;
   border: 1px solid #EBEBEB;
   padding: 12px 16px;
   width: fit-content;
   gap: 18px;
   align-items: center;
+  margin: 0 auto;
 }
 .pagination svg:hover {
   cursor: pointer;
@@ -738,7 +734,7 @@ img {
 .pagination svg:hover path {
   fill: #F16D7F;
 }
-.pagination__pages {
+.pagination__box {
   display: flex;
   flex-direction: row;
   gap: 20px;
