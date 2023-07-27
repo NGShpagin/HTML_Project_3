@@ -3,36 +3,64 @@
     "image": "img/product-1.svg",
     "name": "ELLERY X M'O CAPSULE",
     "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price": 52
+    "price": 52,
+    "color": "Red",
+    "Size": "XL"
   },
   {
     "image": "img/product-2.svg",
-    "name": "ELLERY X M'O CAPSULE",
+    "name": "WEAR ABIBAS",
     "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price": 67
+    "price": 67,
+    "color": "Red",
+    "Size": "XXL"
   },
   {
     "image": "img/product-3.svg",
-    "name": "ELLERY X M'O CAPSULE",
+    "name": "BOOTS REBOK",
     "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price": 45
+    "price": 45,
+    "color": "Pink",
+    "Size": "S"
   },
   {
     "image": "img/product-4.svg",
-    "name": "ELLERY X M'O CAPSULE",
+    "name": "SUIT NIKA",
     "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price": 78
+    "price": 78,
+    "color": "Black",
+    "Size": "M"
   },
   {
     "image": "img/product-5.svg",
-    "name": "ELLERY X M'O CAPSULE",
+    "name": "OVER ZURA",
     "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price": 24
+    "price": 24,
+    "color": "Blue",
+    "Size": "L"
   },
   {
     "image": "img/product-6.svg",
-    "name": "ELLERY X M'O CAPSULE",
+    "name": "MAKERS",
     "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price": 108
+    "price": 108,
+    "color": "Yellow",
+    "Size": "S"
+  },
+  {
+    "image": "img/product-7.svg",
+    "name": "BOOTS SPOOTS",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": 108,
+    "color": "Yellow",
+    "Size": "S"
+  },
+  {
+    "image": "img/product-8.svg",
+    "name": "JEANS VALERIA",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": 108,
+    "color": "Yellow",
+    "Size": "S"
   }
 ]

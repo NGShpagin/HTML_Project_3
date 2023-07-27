@@ -523,6 +523,7 @@ img {
   box-shadow: #F16D7F 0 3px 5px 0;
   border-color: #F16D7F;
   z-index: 100;
+  cursor: pointer;
 }
 .product .hover-content:hover path {
   fill: #F16D7F;
@@ -793,6 +794,11 @@ img {
   line-height: 17px;
   color: #FBFBFB;
   text-align: center;
+}
+
+.cart-section {
+  padding-top: 96px;
+  display: none;
 }
 
 .cart-items {

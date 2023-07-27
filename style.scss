@@ -542,6 +542,7 @@ img {
       box-shadow: $colorSelectSite 0 3px 5px 0;
       border-color: $colorSelectSite;
       z-index: 100;
+      cursor: pointer;
 
       path {
         fill: $colorSelectSite;
@@ -816,6 +817,11 @@ img {
     @include text(300, 14px, 17px, #FBFBFB);
     text-align: center;
   }
+}
+
+.cart-section {
+  padding-top: 96px;
+  display: none;
 }
 
 .cart-items {
